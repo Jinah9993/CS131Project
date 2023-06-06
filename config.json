@@ -1,0 +1,14 @@
+
+{
+    "API_KEY": "[API_KEY]",
+    "MODEL": "object_detection-x2qlm/1",
+    "SIZE": 416,
+
+    "simplegmail_config": {
+        "to": "[EMAIL_TO]",
+        "sender": "[EMAIL_FROM]",
+        "subject": "Alert! Something detected at your front door!",
+        "msg_html": "<h3>Hey [Name]], something was detected at your front door. </h3><br />You might want to check out the attached image ASAP.",
+        "attachments": ["detected_image.jpg"]
+    }
+}
